@@ -1,0 +1,25 @@
+# Allow only the dependency note requested for this project.
+*.txt
+!requirements.txt
+
+# Documents and presentations
+*.pdf
+*.ppt
+*.pptx
+
+# Source data extracts
+*.csv
+*.xls
+*.xlsx
+
+# Power BI temporary and backup files
+*.pbix.autosave
+*.pbix.backup
+*.pbit
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
